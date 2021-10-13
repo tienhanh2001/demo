@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bảo hành</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="bao_hanh.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+	<div id="bao_hanh">
+		<div id="header">
+			<h1>Thông tin bảo hành</h1><br>
+			<fieldset>
+			  <div class="some-class">
+			    <input type="radio" class="radio" name="x" value="y" id="y" />
+			    <label for="y">Tra theo SĐT</label>
+			    <input type="radio" class="radio" name="x" value="z" id="z" />
+			    <label for="z">Tra theo mã IMEI</label>
+			    <input type="radio" class="radio" name="x" value="z" id="z" />
+			    <label for="x">Tra theo tên</label>
+			  </div>
+			</fieldset>
+			<div id="text_check">
+				<input type="text" class="form-control" id="usr">
+				<button type="button" class="btn btn-primary">Kiểm Tra</button>
+				<p style="margin-left: 10px; margin-top: 10px;">Tổng đài hỗ trợ khách hàng (9h-21h): 23637383</p>
+			</div>
+		</div>
+
+		<div id="header_1">
+			<h1>Thông tin bảo hành của Chị A </h1>
+			<h2>Số điện thoại: 1223445</h2>
+			<p>Click vào sản phẩm bên dưới để xem thông tin chi tiết </p>
+		</div>
+		<hr>
+
+		<div id="content">
+			<div>
+				<button onclick="myFunction()" style="background: none; border: none;">PC Gamning </button>
+				<p style="float: right;">Ngày mua : 1/1/2021</p><br>
+			</div>
+			<hr>
+
+
+			<div id="myDIV">
+			  <div id="text_left">
+			  	<div class="Div_1">
+				  	<p>Trạng thái: </p>
+				  	<p style="color: green;">Chưa bảo hành</p>
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Thời gian bảo hành: </p>
+			  		<p>24 tháng</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Thời gian bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+
+			  <div id="text_center">
+			  	<div class="Div_1">
+				  	
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Ngay bắt đầu bảo hành: </p>
+			  		<p>1/1/2021</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Ngay bắt đầu bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+
+			  <div id="text_right">
+			  	<div class="Div_1">
+				  	
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Ngay kết thúc bảo hành: </p>
+			  		<p>1/1/2021</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Ngay kết thúc bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+			</div>
+
+			<div>
+				<button onclick="myFunction()" style="background: none; border: none;">PC Gamning </button>
+				<p style="float: right;">Ngày mua : 1/1/2021</p><br>
+			</div>
+
+			<div id="myDIV">
+			  <div id="text_left">
+			  	<div class="Div_1">
+				  	<p>Trạng thái: </p>
+				  	<p style="color: green;">Chưa bảo hành</p>
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Thời gian bảo hành: </p>
+			  		<p>24 tháng</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Thời gian bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+
+			  <div id="text_center">
+			  	<div class="Div_1">
+				  	
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Ngay bắt đầu bảo hành: </p>
+			  		<p>1/1/2021</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Ngay bắt đầu bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+
+			  <div id="text_right">
+			  	<div class="Div_1">
+				  	
+			  	</div>
+			  	<div class="Div_1">
+			  		<p>Ngay kết thúc bảo hành: </p>
+			  		<p>1/1/2021</p>
+			  	</div>
+			  	<div class="Div_1">
+				  	<p>Ngay kết thúc bảo hành(BesTech): </p>
+				  	<p>-</p>
+			  	</div>
+			  </div>
+			</div>
+
+
+
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myDIV");
+	  if (x.style.display === "none") {
+	    x.style.display = "flex";
+	  } else {
+	    x.style.display = "none";
+	  }
+	}
+	</script>
+</body>
+</html>
